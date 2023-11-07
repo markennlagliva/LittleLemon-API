@@ -39,7 +39,7 @@ INSTALLED_APPS = [
     'livereload',
     'django.contrib.staticfiles',
 
-    'LittleLemonAPI',
+    'restaurant',
 
     'rest_framework',
 ]
