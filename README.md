@@ -1,5 +1,15 @@
 # LittleLemon-App
 Back-End Developer Capstone
+✅ Django REST API
+
+# Dependencies <br>
+- pipenv <br>
+- django <br>
+- mysqlclient <br>
+- django-livereload-server <br>
+- djangorestframework <br>
+
+# API endpoints
 
 Available API endpoints -> protected api's. Needed a valid credentials before viewing. <br>
 
