@@ -1,8 +1,10 @@
 # LittleLemon-App
-Back-End Developer Capstone
-✅ Django REST API
+Meta Back-End Developer Capstone <br>
+✅ Django REST API's
 
-# Dependencies <br>
+<img src="https://github.com/markennlagliva/CS/blob/main/littlelemon.png" height="300" width="500" />
+
+# Dependencies 
 - pipenv <br>
 - django <br>
 - mysqlclient <br>
@@ -36,4 +38,5 @@ Tools used for testing API's <br>
 -> Browsable API provided by django-rest-framework package <br>
 -> Insomia <br>
 
+Note: Can Query the available API's to the Frontend using the native javascript function called fetch(), libraries like jquery, axios or the XMLHttpRequest object.
 
