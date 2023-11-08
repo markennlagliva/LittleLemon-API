@@ -35,6 +35,7 @@ a {
 
 a:hover {
     text-decoration: underline;
+
 }
 
 header img {
@@ -168,6 +169,7 @@ input{
     color:#fff;
     background:#495E57;
     border: 3px solid #495E57; 
+    transition: 0.5s;
   }
 
   .heading-shadow {

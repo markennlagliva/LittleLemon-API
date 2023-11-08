@@ -19,9 +19,17 @@ from django.urls import path, include
 from django.conf import settings
 from django.conf.urls.static import static
 
+from restaurant import views
+
+from rest_framework.routers import DefaultRouter
+router = DefaultRouter(trailing_slash=False)
+router.register(r'tables', views.BookingViewSet)
+
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('', include('LittleLemonAPI.urls')),
+    path('', include('restaurant.urls')),
+    path('restaurant/booking/', include(router.urls)),
+    path('api/', include('LittleLemonAPI.urls') )
 ]
 
 urlpatterns += static(settings.STATIC_URL, document_root=settings.STATIC_ROOT)

@@ -7,6 +7,7 @@ name = "pypi"
 django = "*"
 djangorestframework = "*"
 django-livereload-server = "*"
+mysqlclient = "*"
 
 [dev-packages]
 
