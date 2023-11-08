@@ -27,8 +27,9 @@ router.register(r'tables', views.BookingViewSet)
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('restaurant/', include('restaurant.urls')),
-    path('restaurant/booking/', include(router.urls))
+    path('', include('restaurant.urls')),
+    path('restaurant/booking/', include(router.urls)),
+    path('api/', include('LittleLemonAPI.urls') )
 ]
 
 urlpatterns += static(settings.STATIC_URL, document_root=settings.STATIC_ROOT)
