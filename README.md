@@ -1,4 +1,4 @@
-# LittleLemon-App
+# LittleLemon-API
 Meta Back-End Developer Capstone <br>
 ✅ Django REST API's
 
