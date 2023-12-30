@@ -2,7 +2,7 @@
 Meta Back-End Developer Capstone <br>
 ✅ Django REST API's
 
-<img src="https://github.com/markennlagliva/CS/blob/main/littlelemon.png" height="300" width="500" />
+<img src="https://github.com/markennlagliva/backendfolio/blob/main/static/assets/littlelemon.png" height="300" width="500" />
 
 # Dependencies 
 - pipenv <br>
